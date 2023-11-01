@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['audio_win.py', 'audio_gpt.py'],
+    ['audio_gpt_ui.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -21,7 +21,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='audio_win',
+    name='audio_gpt_ui',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
