@@ -4,5 +4,6 @@ data/*
 raw/*
 backup/*
 *.log
+config.json
 2023*
 2024*

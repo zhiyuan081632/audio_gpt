@@ -20,7 +20,12 @@ from llama_index import Prompt
 from llama_index.node_parser import SimpleNodeParser
 
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+# 读取配置文件
+with open("config.json", "r") as config_file:
+    config = json.load(config_file)
+
+# 从配置中获取 API 密钥, 设置 OpenAI API 密钥
+openai.api_key = config.get("OPENAI_API_KEY")
 
 # 缓存B站url音频
 def download_audio(url, output_dir):
