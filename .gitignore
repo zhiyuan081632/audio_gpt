@@ -1,0 +1,8 @@
+.DS_Store
+.ipynb_checkpoints
+data/*
+raw/*
+backup/*
+*.log
+2023*
+2024*
