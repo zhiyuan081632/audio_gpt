@@ -1,9 +1,12 @@
 .DS_Store
 .ipynb_checkpoints
 data/*
+download
 raw/*
 backup/*
 *.log
 config.json
 2023*
 2024*
+dist
+build
